@@ -98,9 +98,9 @@
     <pixmap name="ValuePixmap" filename="Nowa/back/scrollbarslider.png" />
   </windowstylescrollbar>
   <fonts>
-    <font filename="setrixHD.ttf" name="Regular" scale="85" />
+    <font filename="OpenSans-Regular.ttf" name="Regular" scale="85" />
     <font filename="lcd.ttf" name="LCD" scale="100" />
-    <font filename="setrixHD.ttf" name="Replacement" scale="105" replacement="1" />
+    <font filename="OpenSans-Regular.ttf" name="Replacement" scale="105" replacement="1" />
     <font filename="tuxtxt.ttf" name="Console" scale="100" />
   </fonts>
   <subtitles>
@@ -1111,7 +1111,7 @@
     <widget source="HDDHeader" render="Label" position="15,298" size="340,30" font="Regular;21" />
     <widget source="hddA" render="Label" position="15,328" size="340,80" font="Regular;21" />
     <ePixmap position="416,100" zPosition="-9" size="250,230" pixmap="Nowa/prev.png" transparent="1" alphatest="blend" />
-    <eLabel text="Modified By mambas" position="69,340" size="680,60" font="Regular; 35" backgroundColor="background1" transparent="1" foregroundColor="white" halign="center" />
+    <eLabel text="Modified By Arthur" position="69,340" size="680,60" font="Regular; 35" backgroundColor="background1" transparent="1" foregroundColor="white" halign="center" />
   </screen>
   <screen name="LanguageSelection" position="231,145" size="806,520" title="Language selection">
     <ePixmap position="537,237" size="250,250" zPosition="2" pixmap="Nowa/menu/language.png" transparent="1" alphatest="blend" />
