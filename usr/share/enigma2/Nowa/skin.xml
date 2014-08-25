@@ -50,11 +50,11 @@
   <windowstyle type="skinned" id="0">
     <title offset="20,13" font="Regular;35" />
     <color name="Background" color="background1" />
-    <color name="LabelForeground" color="white" />
+    <color name="LabelForeground" color="yellow" />
     <color name="ListboxBackground" color="background1" />
     <color name="ListboxForeground" color="white" />
     <color name="ListboxSelectedBackground" color="darkgrey1" />
-    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxSelectedForeground" color="yellow" />
     <color name="ListboxMarkedBackground" color="background1" />
     <color name="ListboxMarkedForeground" color="green" />
     <color name="ListboxMarkedAndSelectedBackground" color="background1" />
@@ -74,11 +74,11 @@
   </windowstyle>
   <windowstyle type="skinned" id="1">
     <color name="Background" color="black" />
-    <color name="LabelForeground" color="white" />
+    <color name="LabelForeground" color="yellow" />
     <color name="ListboxBackground" color="un808888" />
     <color name="ListboxForeground" color="white" />
     <color name="ListboxSelectedBackground" color="un808888" />
-    <color name="ListboxSelectedForeground" color="white" />
+    <color name="ListboxSelectedForeground" color="yellow" />
     <color name="ListboxMarkedBackground" color="un808888" />
     <color name="ListboxMarkedForeground" color="white" />
     <color name="ListboxMarkedAndSelectedBackground" color="un808888" />
