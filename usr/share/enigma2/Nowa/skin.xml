@@ -1802,4 +1802,27 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth)/2, orgpos.y()))
      <widget name="ButtonMenu" pixmap="Nowa/buttons/key_menu.png" position="223,356" zPosition="10" size="81,40" transparent="1" alphatest="on" />
   <widget name="menulist" position="4,12" size="439,326" itemHeight="30" scrollbarMode="showOnDemand" transparent="1" /> 
 </screen>
+  <screen name="VideoEnhancementSetup" position="center,center" size="1130,520" title="VideoEnhancementSetup">
+    <ePixmap pixmap="Nowa/frame_box-fs8.png" zPosition="-1" position="0,0" size="1130,520" alphatest="on" />
+    <ePixmap position="60,460" size="250,40" pixmap="Nowa/buttons/red.png" alphatest="on" zPosition="1" />
+    <ePixmap position="302,460" size="250,40" pixmap="Nowa/buttons/green.png" alphatest="on" zPosition="1" />
+    <ePixmap position="578,460" size="250,40" pixmap="Nowa/buttons/yellow.png" alphatest="on" zPosition="1" />
+    <ePixmap position="854,460" size="250,40" pixmap="Nowa/buttons/blue.png" alphatest="on" zPosition="1" />
+    <widget source="key_red" render="Label" position="0,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_green" render="Label" position="253,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_yellow" render="Label" position="527,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_blue" render="Label" position="800,460" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="config" position="20,20" size="1090,350" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="introduction" render="Label" position="290,420" size="550,25" zPosition="10" font="Regular;22" halign="center" valign="center" foregroundColor="un99ff" backgroundColor="transpBlack" transparent="1" />
+  </screen>
+  <screen name="VideoEnhancementPreview" position="center,center" size="710,240" title="VideoEnhancementPreview">
+    <ePixmap pixmap="Nowa/frame_box-fs8.png" zPosition="-1" position="0,0" size="710,240" alphatest="on" />
+    <ePixmap position="70,180" size="250,40" pixmap="Nowa/buttons/red.png" alphatest="on" zPosition="1" />
+    <ePixmap position="390,180" size="250,40" pixmap="Nowa/buttons/green.png" alphatest="on" zPosition="1" />
+    <widget source="key_red" render="Label" position="70,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget source="key_green" render="Label" position="390,180" zPosition="2" size="250,40" font="Regular;24" halign="center" valign="center" backgroundColor="transpBlack" transparent="1" />
+    <widget name="config" position="20,20" size="670,80" scrollbarMode="showOnDemand" transparent="1" />
+    <widget source="introduction" render="Label" position="15,140" size="680,25" zPosition="10" font="Regular;22" halign="center" valign="center" backgroundColor="un25062748" transparent="1" />
+  </screen>
 </skin>
+
